@@ -1,0 +1,9 @@
+server/*.local
+server/.env*
+web/.env*
+!web/.env.example
+server/node_modules/
+web/node_modules/
+web/dist/
+server/tmp-live-*.mjs
+

@@ -1,0 +1,77 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 1 /Kids [3 0 R] >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 669 >>
+stream
+BT
+/F1 22 Tf
+72 790 Td
+(Laws of Motion) Tj
+0 -30 Td
+/F1 14 Tf
+(Engineering Physics topic for demo testing) Tj
+0 -45 Td
+/F1 16 Tf
+(Newton's First Law:) Tj
+0 -24 Td
+/F1 13 Tf
+(A body remains at rest or in uniform motion unless an external force acts on it.) Tj
+0 -38 Td
+/F1 16 Tf
+(Newton's Second Law:) Tj
+0 -24 Td
+/F1 13 Tf
+(Force equals rate of change of momentum.) Tj
+0 -20 Td
+(For constant mass, F = ma.) Tj
+0 -38 Td
+/F1 16 Tf
+(Newton's Third Law:) Tj
+0 -24 Td
+/F1 13 Tf
+(For every action, there is an equal and opposite reaction.) Tj
+0 -38 Td
+/F1 16 Tf
+(Inertia and Momentum:) Tj
+0 -24 Td
+/F1 13 Tf
+(Inertia is the tendency to resist change in motion.) Tj
+0 -20 Td
+(Momentum p = mv.) Tj
+0 -38 Td
+/F1 16 Tf
+(Examples:) Tj
+0 -24 Td
+/F1 13 Tf
+(Passenger falls backward when a bus starts suddenly.) Tj
+0 -20 Td
+(Recoil of a gun shows action and reaction.) Tj
+0 -20 Td
+(Pushing a wall does not move it because forces balance.) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000010 00000 n 
+0000000063 00000 n 
+0000000122 00000 n 
+0000000248 00000 n 
+0000000969 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1039
+%%EOF

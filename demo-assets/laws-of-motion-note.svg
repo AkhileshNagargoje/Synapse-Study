@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1800" viewBox="0 0 1400 1800">
+  <rect width="1400" height="1800" fill="#fbf6ec"/>
+  <rect x="70" y="70" width="1260" height="1660" rx="28" fill="#fffdf8" stroke="#e9dcc7" stroke-width="4"/>
+  <text x="130" y="180" font-family="Georgia, Times New Roman, serif" font-size="54" fill="#1b2c1f">Laws of Motion</text>
+  <text x="130" y="250" font-family="Georgia, Times New Roman, serif" font-size="30" fill="#6b6f62">Engineering Physics notes</text>
+
+  <g font-family="Segoe Print, Comic Sans MS, cursive" fill="#223127" font-size="34">
+    <text x="130" y="380">Newton's First Law:</text>
+    <text x="170" y="435">A body remains at rest or in uniform motion unless</text>
+    <text x="170" y="485">an external force acts on it.</text>
+
+    <text x="130" y="590">Newton's Second Law:</text>
+    <text x="170" y="645">Force = rate of change of momentum</text>
+    <text x="170" y="695">For constant mass: F = ma</text>
+
+    <text x="130" y="800">Newton's Third Law:</text>
+    <text x="170" y="855">For every action there is an equal and opposite reaction.</text>
+
+    <text x="130" y="960">Inertia:</text>
+    <text x="170" y="1015">Tendency of a body to resist change in motion.</text>
+
+    <text x="130" y="1120">Momentum:</text>
+    <text x="170" y="1175">p = mv</text>
+
+    <text x="130" y="1280">Examples:</text>
+    <text x="170" y="1335">1. Passenger falls backward when bus starts suddenly.</text>
+    <text x="170" y="1385">2. Recoil of a gun shows action and reaction.</text>
+    <text x="170" y="1435">3. Pushing a wall does not move it because forces balance.</text>
+
+    <text x="130" y="1545">Quick revision:</text>
+    <text x="170" y="1600">More mass = more inertia</text>
+    <text x="170" y="1650">More force = more acceleration</text>
+  </g>
+</svg>
