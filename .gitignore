@@ -6,4 +6,7 @@ server/node_modules/
 web/node_modules/
 web/dist/
 server/tmp-live-*.mjs
+init-plan.md
+schema-plan.md
+judge-demo-script.md
 
