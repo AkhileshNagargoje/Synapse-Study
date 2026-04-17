@@ -12,7 +12,7 @@ const model = env.GEMINI_MODEL || process.env.GEMINI_MODEL || "gemini-2.5-flash"
 const liveModel = env.GEMINI_LIVE_MODEL || process.env.GEMINI_LIVE_MODEL || "gemini-2.5-flash-native-audio-preview-12-2025";
 const port = Number(env.PORT || process.env.PORT || 8787);
 const host = env.HOST || process.env.HOST || "0.0.0.0";
-const corsOrigin = env.CORS_ORIGIN || process.env.CORS_ORIGIN || "*";
+const corsOrigin = normalizeCorsOrigin(env.CORS_ORIGIN || process.env.CORS_ORIGIN || "*");
 const liveAi = apiKey
   ? new GoogleGenAI({
       apiKey,
@@ -206,6 +206,14 @@ function loadEnv(filePath) {
   }).filter(Boolean);
   return Object.fromEntries(entries);
 }
+function normalizeCorsOrigin(value) {
+  const cleaned = String(value || "*")
+    .split(",")[0]
+    .replace(/["'"'`]/g, "")
+    .trim();
+
+  return cleaned || "*";
+}
 function setCorsHeaders(response) {
   response.setHeader("Access-Control-Allow-Origin", corsOrigin);
   response.setHeader("Access-Control-Allow-Methods", "GET,POST,OPTIONS");
@@ -284,6 +292,7 @@ function summarizeConversationHistory(history) {
     .map((item) => `${item.role === "user" ? "Student" : "Tutor"}: ${item.content.trim()}`);
   return lines.join("\n");
 }
+
 
 
 
