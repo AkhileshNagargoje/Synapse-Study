@@ -100,6 +100,7 @@ export function RootLayout() {
               <div>
                 <p className="display-title text-2xl leading-none text-[#122117]">Synapse Study</p>
                 <p className="mt-1 text-sm text-[#556158]">AI study companion</p>
+                <p className="mt-1 text-[11px] uppercase tracking-[0.18em] text-[#7a857a]">Created by Akhilesh Nagargoje</p>
               </div>
             </Link>
             <div className="flex items-center gap-2">
